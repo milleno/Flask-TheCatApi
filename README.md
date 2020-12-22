@@ -41,7 +41,7 @@ _________________app.py
 
 _________________cat_api.py
 
-_________________Templates
+_________________templates
 ├── base.html
 ├── breed.html
 ├── breeds.html
@@ -49,7 +49,7 @@ _________________Templates
 ├── index.html
 ├── log.log
 └── sunglasses.html
-____________________Static
+____________________static
 └── css
     └── style.css
 ```
@@ -57,6 +57,11 @@ ____________________Static
 
 Use the credentials u:`admin`, p:`admin` to log in.
 
+### Screenshots
+
+![Screenshot 1](/img/dash01.png)
+![Screenshot 2](/img/dash02.png)
+![Screenshot 3](/img/log01.png)
 
 ## Contributing
 Milleno Matos Ferreira (millenomatos@gmail.com)
