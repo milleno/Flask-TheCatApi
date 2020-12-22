@@ -1,0 +1,123 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% set breed = breed_img[0]['breeds'][0] %}
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            {% for img in breed_img %}
+                {% if loop.index0 == 0%}
+                    <li data-target="#carouselExampleIndicators" data-slide-to="{{ loop.index0 }}" class="active"></li>
+                {% else %}
+                    <li data-target="#carouselExampleIndicators" data-slide-to="{{ loop.index0 }}"></li>
+                {% endif %}
+            {% endfor %}
+        </ol>
+      <div class="carousel-inner">
+          {% for img in breed_img %}
+              {% if loop.index0 == 0%}
+                  <div class="carousel-item active">
+              {% else %}
+                  <div class="carousel-item">
+              {% endif %}
+                    <img src="{{ img['url'] }}" class="d-block w-100 h-100" alt="...">
+                  </div>
+          {% endfor %}
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h2 class="card-title">{{ breed['name'] }}</h2>
+            <h6>{{ breed['temperament'] }}</h6>
+            <p>Origin: {{ breed['origin'] }}</p>
+            <p>{{ breed['description'] }}</p>
+            <p>
+              <a class="btn btn-secondary btn-block" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                See details
+              </a>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <table class="table">
+                <thead>
+                    <tr>
+                      <th scope="col">Property</th>
+                      <th scope="col">Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Life span</td>
+                        <td>{{ breed['life_span'] }} years</td>
+                    </tr>
+                    <tr>
+                        <td>Weight</td>
+                        <td>{{ breed['weight']['metric'] }} kg</td>
+                    </tr>
+                    <tr>
+                        <td>Experimental</td>
+                        {% if breed['experimental'] == 1 %}
+                        <td>Yes</td>
+                        {% elif breed['experimental'] == 0 %}
+                        <td>No</td>
+                        {% endif %}
+                    </tr>
+                    <tr>
+                        <td>Hairless</td>
+                        {% if breed['hairless'] == 1 %}
+                        <td>Yes</td>
+                        {% elif breed['hairless'] == 0 %}
+                        <td>No</td>
+                        {% endif %}
+                    </tr>
+                    <tr>
+                        <td>Natural</td>
+                        {% if breed['natural'] == 1 %}
+                        <td>Yes</td>
+                        {% elif breed['natural'] == 0 %}
+                        <td>No</td>
+                        {% endif %}
+                    </tr>
+                    <tr>
+                        <td>Rare</td>
+                        {% if breed['rare'] == 1 %}
+                        <td>Yes</td>
+                        {% elif breed['rare'] == 0 %}
+                        <td>No</td>
+                        {% endif %}
+                    </tr>
+                    <tr>
+                        <td>Rex</td>
+                        {% if breed['rex'] == 1 %}
+                        <td>Yes</td>
+                        {% elif breed['rex'] == 0 %}
+                        <td>No</td>
+                        {% endif %}
+                    </tr>
+                    <tr>
+                        <td>Suppressed tail</td>
+                        {% if breed['suppressed_tail'] == 1 %}
+                        <td>Yes</td>
+                        {% elif breed['suppressed_tail'] == 0 %}
+                        <td>No</td>
+                        {% endif %}
+                    </tr>
+                    <tr>
+                        <td>Short legs</td>
+                        {% if breed['short_legs'] == 1 %}
+                        <td>Yes</td>
+                        {% elif breed['short_legs'] == 0 %}
+                        <td>No</td>
+                        {% endif %}
+                    </tr>
+                    <tr>
+                        <td>Hypoallergenic</td>
+                        {% if breed['hypoallergenic'] == 1 %}
+                        <td>Yes</td>
+                        {% elif breed['hypoallergenic'] == 0 %}
+                        <td>No</td>
+                        {% endif %}
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+{% endblock %}

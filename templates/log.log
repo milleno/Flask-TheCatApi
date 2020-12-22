@@ -1,0 +1,235 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 754-083-009
+INFO:werkzeug: * Detected change in '/home/milleno/Documentos/CatApi/flask/cat-app/app.py', reloading
+INFO:apscheduler.scheduler:Scheduler has been shut down
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 754-083-009
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 17:58:48] "[37mGET /sunglasses HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 17:58:50] "[33mGET /logging HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 17:58:52] "[37mGET /sunglasses HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 17:58:53] "[37mGET /hat HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.thecatapi.com:443
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 17:58:54] "[33mGET /logging HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:https://api.thecatapi.com:443 "GET /v1/breeds HTTP/1.1" 200 83744
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 17:58:55] "[37mGET /breeds HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 17:59:15] "[33mGET /logging HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/milleno/Documentos/CatApi/flask/cat-app/app.py', reloading
+INFO:apscheduler.scheduler:Scheduler has been shut down
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 754-083-009
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:49:43] "[37mGET /dashboard/overview HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:49:43] "[37mGET /dashboard/static/js/app.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:49:43] "[37mGET /dashboard/api/custom_graphs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:49:44] "[37mGET /dashboard/api/overview HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:49:44] "[37mGET /dashboard/api/deploy_details HTTP/1.1[0m" 200 -
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:50:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:50:42] "[37mGET /dashboard/overview HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:50:42] "[37mGET /dashboard/api/custom_graphs HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:50:43] "[37mGET /dashboard/api/overview HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:50:43] "[37mGET /dashboard/api/deploy_details HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:50:50] "[37mGET /sunglasses HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:50:50] "[37mGET /hat HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.thecatapi.com:443
+DEBUG:urllib3.connectionpool:https://api.thecatapi.com:443 "GET /v1/breeds HTTP/1.1" 200 83744
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:50:53] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:50:53] "[37mGET /breeds HTTP/1.1[0m" 200 -
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:53:00] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:53:28] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:53:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:54:05] "[37mGET /sunglasses HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:54:06] "[37mGET /hat HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.thecatapi.com:443
+DEBUG:urllib3.connectionpool:https://api.thecatapi.com:443 "GET /v1/breeds HTTP/1.1" 200 83744
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:54:08] "[37mGET /breeds HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.thecatapi.com:443
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:54:10] "[37mGET /sunglasses HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:https://api.thecatapi.com:443 "GET /v1/breeds HTTP/1.1" 200 83744
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 18:54:10] "[37mGET /breeds HTTP/1.1[0m" 200 -
+INFO:apscheduler.scheduler:Scheduler has been shut down
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added
+INFO:werkzeug: * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 754-083-009
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:01:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:01:25] "[33mGET /templates/img/MeandLuan.jpg HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.thecatapi.com:443
+DEBUG:urllib3.connectionpool:https://api.thecatapi.com:443 "GET /v1/breeds HTTP/1.1" 200 83744
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:01:33] "[37mGET /breeds HTTP/1.1[0m" 200 -
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:01:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:01:34] "[33mGET /templates/img/MeandLuan.jpg HTTP/1.1[0m" 404 -
+INFO:apscheduler.scheduler:Scheduler has been shut down
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added
+INFO:apscheduler.scheduler:Scheduler has been shut down
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added
+INFO:werkzeug: * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 754-083-009
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:04:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:04:21] "[33mGET /cat-app/templates/img/MeandLuan.jpg HTTP/1.1[0m" 404 -
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:04:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:04:24] "[33mGET /cat-app/templates/img/MeandLuan.jpg HTTP/1.1[0m" 404 -
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:04:45] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:06:10] "[33mGET /templates HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:06:21] "[33mGET /templates/img HTTP/1.1[0m" 404 -
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:13:15] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:13:31] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:13:41] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.thecatapi.com:443
+DEBUG:urllib3.connectionpool:https://api.thecatapi.com:443 "GET /v1/breeds HTTP/1.1" 200 83744
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:14:24] "[37mGET /breeds HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/milleno/Documentos/CatApi/flask/cat-app/app.py', reloading
+INFO:apscheduler.scheduler:Scheduler has been shut down
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added
+INFO:werkzeug: * Restarting with stat
+INFO:apscheduler.scheduler:Scheduler has been shut down
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added
+INFO:werkzeug: * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 754-083-009
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:17:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:17:50] "[33mGET /logging HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/milleno/Documentos/CatApi/flask/cat-app/app.py', reloading
+INFO:apscheduler.scheduler:Scheduler has been shut down
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 754-083-009
+INFO:apscheduler.scheduler:Scheduler has been shut down
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added
+INFO:apscheduler.scheduler:Scheduler has been shut down
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added
+INFO:werkzeug: * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 754-083-009
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:23:56] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:23:56] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:24:02] "[32mGET /dashboard/overview HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:24:02] "[37mGET /dashboard/login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:24:02] "[37mGET /dashboard/static/js/app.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:24:02] "[37mGET /dashboard/static/css/app.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:24:02] "[37mGET /dashboard/static/img/header.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:24:02] "[37mGET /dashboard/static/fonts/fa-solid-900.woff2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:24:03] "[37mGET /dashboard/static/pages/overview.html HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.thecatapi.com:443
+DEBUG:urllib3.connectionpool:https://api.thecatapi.com:443 "GET /v1/breeds HTTP/1.1" 200 83744
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:24:11] "[37mGET /breeds HTTP/1.1[0m" 200 -
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:24:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:24:13] "[37mGET /hat HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:24:17] "[37mGET /sunglasses HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.thecatapi.com:443
+DEBUG:urllib3.connectionpool:https://api.thecatapi.com:443 "GET /v1/breeds HTTP/1.1" 200 83744
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:24:56] "[37mGET /breeds HTTP/1.1[0m" 200 -
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:24:58] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:app:main debug
+INFO:app:main info
+WARNING:app:main warning
+ERROR:app:main error
+CRITICAL:app:main critical
+INFO:werkzeug:127.0.0.1 - - [21/Dec/2020 19:25:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:apscheduler.scheduler:Scheduler has been shut down
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added
+INFO:apscheduler.scheduler:Scheduler has been shut down
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added

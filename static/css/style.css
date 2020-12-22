@@ -1,0 +1,12 @@
+.carousel-inner > .carousel-item {
+    height: 337px;
+}
+
+.carousel-inner > .carousel-item > img {
+    object-fit: cover;
+}
+       
+.img {
+
+    padding: 2px;
+}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <div>
+
+            {% for breed in breeds %}
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ breed['name'] }} <span class="badge badge-secondary">ID: {{ breed['id'] }}</span></h5>
+                        <a href="/breed/{{ breed['id'] }}" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            {% endfor %}
+
+    </div>
+{% endblock %}
